@@ -1,0 +1,4 @@
+#Wed Nov 11 15:18:55 CET 2020
+base.0=C\:\\JAV1cestlamerde\\AngryWirds-2020\\android\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
