@@ -8,8 +8,13 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.Vector2;
+
+import java.lang.reflect.Array;
+import java.util.List;
 
 import ch.cpnv.angrywirds.AngryWirds;
+import ch.cpnv.angrywirds.model.Button;
 
 public class Welcome extends Game implements InputProcessor {
 
@@ -19,14 +24,21 @@ public class Welcome extends Game implements InputProcessor {
     private SpriteBatch batch;
     private Texture background;
     private BitmapFont title;
-
+    private Button frbutton,enbutton,spbutton;
+    private List<Button> buttonList;
     private OrthographicCamera camera;
 
     public Welcome() {
-
         batch = new SpriteBatch();
         background = new Texture(Gdx.files.internal("background.jpg"));
 
+
+        frbutton = new Button(new Vector2(500,500),300,300,"bubble.png","Français");
+        enbutton = new Button(new Vector2(500,100),300,300,"bubble.png","Anglais");
+        spbutton = new Button(new Vector2(500,800),300,300,"bubble.png","Anglais");
+        //buttonList.add(frbutton);
+        //buttonList.add(enbutton);
+        //buttonList.add(spbutton);
         camera = new OrthographicCamera();
         camera.setToOrtho(false, WORLD_WIDTH, WORLD_HEIGHT);
         camera.position.set(camera.viewportWidth / 2, camera.viewportHeight / 2, 0);
@@ -53,8 +65,13 @@ public class Welcome extends Game implements InputProcessor {
         update();
         batch.begin();
         batch.setProjectionMatrix(camera.combined);
+
         batch.draw(background, 0, 0, camera.viewportWidth, camera.viewportHeight);
-        title.draw(batch,"Hello",WORLD_WIDTH/2,WORLD_HEIGHT/2);
+        title.draw(batch,"Language de ...",100,WORLD_HEIGHT-100);
+        title.draw(batch,"à ...",WORLD_WIDTH/2,WORLD_HEIGHT-100);
+        frbutton.draw(batch);
+        enbutton.draw(batch);
+        spbutton.draw(batch);
         batch.end();
     }
 
@@ -75,6 +92,15 @@ public class Welcome extends Game implements InputProcessor {
 
     @Override
     public boolean touchDown(int screenX, int screenY, int pointer, int button) {
+        /*for (Button btn:buttonList)
+        {
+            if(btn.isTouched(new Vector2(screenX,screenY))){
+
+                AngryWirds.pages.push(new Play(btn.getValue()));
+                // Then does smth
+            }
+        }*/
+
         AngryWirds.pages.push(new Play());
         return false;
     }

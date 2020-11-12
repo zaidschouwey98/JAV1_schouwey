@@ -9,6 +9,7 @@ import com.badlogic.gdx.math.Vector2;
 
 import ch.cpnv.angrywirds.AngryWirds;
 import ch.cpnv.angrywirds.activities.Play;
+import ch.cpnv.angrywirds.model.Data.SemanticWord;
 import ch.cpnv.angrywirds.model.Data.Word;
 
 public class Panel extends Sprite {
@@ -21,9 +22,9 @@ public class Panel extends Sprite {
     private static final float TEXT_OFFSET_X = 50; // to place the text inside the panel
     private static final float TEXT_OFFSET_Y = 50;
     private BitmapFont font;
-    private Word word;
+    private SemanticWord word;
 
-    public Panel (Word word)
+    public Panel (SemanticWord word)
     {
         super(new Texture(PICNAME));
         setBounds(POSX,POSY,WIDTH,HEIGHT);
@@ -36,10 +37,10 @@ public class Panel extends Sprite {
     public void draw(Batch batch)
     {
         super.draw(batch);
-        font.draw(batch, word.getValue2(), getX()+TEXT_OFFSET_X, getY()+TEXT_OFFSET_Y);
+        //font.draw(batch, word.getValue(), getX()+TEXT_OFFSET_X, getY()+TEXT_OFFSET_Y);
     }
 
-    public Word getWord() {
+    public SemanticWord getWord() {
         return word;
     }
 

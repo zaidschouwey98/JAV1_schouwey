@@ -32,26 +32,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de351cf5-4649-4ecf-93ec-d94bc04db625" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/android/assets/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/bird.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/bird.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/block.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/block.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/bubble.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/bubble.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/panel.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/panel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/pig.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/pig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/slingshot1.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/slingshot1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/slingshot2.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/slingshot2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/tnt.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/tnt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/wasp.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/wasp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model/Data/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model/Data/SemanticWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model/Data/SemanticWordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__AngryWirds_2020_core_core_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_1_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_backend_android_1_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_backend_lwjgl_1_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_box2d_1_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_box2d_platform_1_9_8_natives_desktop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_platform_1_9_8_natives_desktop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_jlayer_jlayer_1_0_1_gdx.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jinput_jinput_2_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jinput_jinput_platform_2_0_5_natives_linux.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jinput_jinput_platform_2_0_5_natives_osx.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jinput_jinput_platform_2_0_5_natives_windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jutils_jutils_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jcraft_jorbis_0_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_platform_2_9_2_natives_linux.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_platform_2_9_2_natives_osx.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_platform_2_9_2_natives_windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_util_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/android/AngryWirds-2020.android.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/core/AngryWirds-2020.core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/desktop/AngryWirds-2020.desktop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngryWirds-2020.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/generated/source/buildConfig/debug/ch/cpnv/angrywirds/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/source/buildConfig/debug/ch/cpnv/angrywirds/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/dex/debug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/dex/debug/out/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6voGj765d2lu+u_oODRZAeBN7SA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/NKXzqTBKJGO1M36JKcdhZ+vlMLQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/nP4Yd0ZXUPvps6y1vyJlCo5sZrQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/rs1wJgAGgkac_ikZb8UgVva_yx0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/6voGj765d2lu+u_oODRZAeBN7SA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/NKXzqTBKJGO1M36JKcdhZ+vlMLQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/nP4Yd0ZXUPvps6y1vyJlCo5sZrQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/rs1wJgAGgkac_ikZb8UgVva_yx0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/9274567182f139ab2e7142693533eb79ff08b8a9d890f816a485025d7ae46394_0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/9274567182f139ab2e7142693533eb79ff08b8a9d890f816a485025d7ae46394_0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/9274567182f139ab2e7142693533eb79ff08b8a9d890f816a485025d7ae46394_1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/9274567182f139ab2e7142693533eb79ff08b8a9d890f816a485025d7ae46394_1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/9274567182f139ab2e7142693533eb79ff08b8a9d890f816a485025d7ae46394_2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/9274567182f139ab2e7142693533eb79ff08b8a9d890f816a485025d7ae46394_2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/project_dex_archive/debug/out/9274567182f139ab2e7142693533eb79ff08b8a9d890f816a485025d7ae46394_5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/AngryWirds.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/AngryWirds.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/activities/Play.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/activities/Play.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/activities/Welcome.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/activities/Welcome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/model/Data/Vocabulary.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/model/Data/Vocabulary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/model/Panel.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/model/Panel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/model/Pig.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/model/Pig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/model/Scenery.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/model/Scenery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/providers/VocProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/ch/cpnv/angrywirds/providers/VocProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/AngryWirds.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/AngryWirds.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/activities/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/activities/Play.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model/Data/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model/Data/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/activities/Welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/activities/Welcome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model/Data/Vocabulary.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model/Data/Vocabulary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model/Panel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model/Pig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model/Scenery.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model/Scenery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/providers/VocProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/providers/VocProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_30" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -104,7 +195,7 @@
       <recent name="$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesktopLauncher">
+  <component name="RunManager" selected="Android App.android">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -134,7 +225,6 @@
       <option name="DEPLOY_AS_INSTANT" value="false" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ALL_USERS" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -170,29 +260,23 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
-      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
         <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1561030655522" />
       </method>
     </configuration>
     <configuration name="android" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="AngryWirds-2020.android" />
+      <module name="android" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ALL_USERS" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -200,7 +284,7 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
@@ -228,18 +312,14 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
-      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1561030655522" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -282,11 +362,8 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
@@ -397,12 +474,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="669" y="106" key="#android" timestamp="1605104278196">
@@ -413,46 +491,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605104441919" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605169523803">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605169523803" />
     <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1605105977010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605105977010" />
-    <state width="1860" height="278" key="GridCell.Tab.0.bottom" timestamp="1605109087797">
+    <state x="815" y="285" key="AndroidProcessChooserDialog" timestamp="1605172696334">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="815" y="285" key="AndroidProcessChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605172696334" />
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom" timestamp="1605179286294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1878" height="214" key="GridCell.Tab.0.bottom/-288.-1057.1920.1057/0.23.1440.877@-288.-1057.1920.1057" timestamp="1602405254785" />
     <state width="1860" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605109087797" />
-    <state width="1860" height="278" key="GridCell.Tab.0.center" timestamp="1605109087797">
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605179286294" />
+    <state width="1877" height="332" key="GridCell.Tab.0.center" timestamp="1605179286294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1878" height="214" key="GridCell.Tab.0.center/-288.-1057.1920.1057/0.23.1440.877@-288.-1057.1920.1057" timestamp="1602405254784" />
     <state width="1860" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605109087797" />
-    <state width="1860" height="278" key="GridCell.Tab.0.left" timestamp="1605109087797">
+    <state width="1877" height="332" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605179286294" />
+    <state width="1877" height="332" key="GridCell.Tab.0.left" timestamp="1605179286294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1878" height="214" key="GridCell.Tab.0.left/-288.-1057.1920.1057/0.23.1440.877@-288.-1057.1920.1057" timestamp="1602405254784" />
     <state width="1860" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605109087797" />
-    <state width="1860" height="278" key="GridCell.Tab.0.right" timestamp="1605109087797">
+    <state width="1877" height="332" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605179286294" />
+    <state width="1877" height="332" key="GridCell.Tab.0.right" timestamp="1605179286294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1878" height="214" key="GridCell.Tab.0.right/-288.-1057.1920.1057/0.23.1440.877@-288.-1057.1920.1057" timestamp="1602405254785" />
     <state width="1860" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605109087797" />
-    <state width="1860" height="278" key="GridCell.Tab.1.bottom" timestamp="1605109087798">
+    <state width="1877" height="332" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605179286294" />
+    <state width="1877" height="332" key="GridCell.Tab.1.bottom" timestamp="1605179284683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1860" height="278" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605109087798" />
-    <state width="1860" height="278" key="GridCell.Tab.1.center" timestamp="1605109087797">
+    <state width="1877" height="332" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605179284683" />
+    <state width="1877" height="332" key="GridCell.Tab.1.center" timestamp="1605179284683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1860" height="278" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605109087797" />
-    <state width="1860" height="278" key="GridCell.Tab.1.left" timestamp="1605109087797">
+    <state width="1877" height="332" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605179284683" />
+    <state width="1877" height="332" key="GridCell.Tab.1.left" timestamp="1605179284683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1860" height="278" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605109087797" />
-    <state width="1860" height="278" key="GridCell.Tab.1.right" timestamp="1605109087797">
+    <state width="1877" height="332" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605179284683" />
+    <state width="1877" height="332" key="GridCell.Tab.1.right" timestamp="1605179284683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1860" height="278" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605109087797" />
+    <state width="1877" height="332" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605179284683" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1605106658781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -462,9 +556,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/activities/Play.java</url>
-          <line>154</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/activities/Welcome.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/activities/Welcome.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/ch/cpnv/angrywirds/activities/Welcome.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

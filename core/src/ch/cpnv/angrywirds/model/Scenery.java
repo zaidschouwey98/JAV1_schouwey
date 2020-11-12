@@ -10,6 +10,7 @@ import java.util.ArrayList;
 
 import ch.cpnv.angrywirds.AngryWirds;
 import ch.cpnv.angrywirds.activities.Play;
+import ch.cpnv.angrywirds.model.Data.SemanticWord;
 import ch.cpnv.angrywirds.model.Data.Word;
 
 /**
@@ -110,7 +111,7 @@ public final class Scenery {
         }
     }
 
-    public Word pickAWord()
+    public SemanticWord pickAWord()
     {
         // build a list of pigs
         ArrayList<Pig> pigs = new ArrayList<Pig>();

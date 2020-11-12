@@ -71,6 +71,7 @@ public class Play extends Game implements InputProcessor {
         tweety = new Bird(new Vector2(AIMING_ZONE_X-Bird.WIDTH, AIMING_ZONE_Y-Bird.HEIGHT), new Vector2(0, 0));
         waspy = new Wasp(new Vector2(WORLD_WIDTH / 2, WORLD_HEIGHT / 2), new Vector2(0, 0));
         voc = vocSource.pickAVoc();
+        //voc.pickAWord();
 
         scene = new Scenery();
         //scene.addFloor();
@@ -98,16 +99,16 @@ public class Play extends Game implements InputProcessor {
             }
         }
         int pigsLeft = 5;
-        while (pigsLeft > 0) {
-            try {
-                scene.dropElement(new Pig(new Vector2(alea.nextFloat() * WORLD_WIDTH, FLOOR_HEIGHT + BLOCK_SIZE), voc.pickAWord()));
-                pigsLeft--;
-            } catch (ObjectOutOfBoundsException e) {
-                Gdx.app.log("ANGRY", "Pig out of bounds: " + e.getMessage());
-            } catch (SceneCollapseException e) {
-                Gdx.app.log("ANGRY", "Unstable pig: " + e.getMessage());
-            }
-        }
+
+        //while (pigsLeft > 0) {
+            //try {
+             //   scene.dropElement(new Pig(new Vector2(alea.nextFloat() * WORLD_WIDTH, FLOOR_HEIGHT + BLOCK_SIZE),voc.pickAWord()));
+//            } catch (ObjectOutOfBoundsException e) {
+             //   Gdx.app.log("ANGRY", "Pig out of bounds: " + e.getMessage());
+           // } catch (SceneCollapseException e) {
+            //    Gdx.app.log("ANGRY", "Unstable pig: " + e.getMessage());
+           // }
+      //  }
 
         batch = new SpriteBatch();
         background = new Texture(Gdx.files.internal("background.jpg"));
@@ -118,7 +119,7 @@ public class Play extends Game implements InputProcessor {
         camera.position.set(camera.viewportWidth / 2, camera.viewportHeight / 2, 0);
         camera.update();
 
-        panel = new Panel(scene.pickAWord());
+        //panel = new Panel(scene.pickAWord());
         scoreVal = 3; // allow a few mistakes before game over
         scoreDisp= new BitmapFont();
         scoreDisp.setColor(Color.BLACK);
@@ -130,6 +131,7 @@ public class Play extends Game implements InputProcessor {
         rubberBand2 = new RubberBand();
 
         Gdx.input.setInputProcessor(this);
+
     }
     @Override
     public void create() {
@@ -151,8 +153,8 @@ public class Play extends Game implements InputProcessor {
                     if (phob instanceof Pig) {
                         if (((Pig)phob).getWord() == panel.getWord()) {
                             scoreVal++;
-                            Word tes = ((Pig) phob).getWord();
-                            tes.setFound();
+                            //Word tes = ((Pig) phob).getWord();
+                            //tes.setFound();
                             scene.removeElement(phob);
                         } else {
                             scoreVal--;
@@ -191,7 +193,7 @@ public class Play extends Game implements InputProcessor {
         if (tweety.getState() == Bird.State.AIMING) rubberBand2.draw(batch);
         waspy.draw(batch);
         scene.draw(batch);
-        panel.draw(batch);
+        //panel.draw(batch);
         batch.draw(slingshot2, SLINGSHOT_OFFSET, FLOOR_HEIGHT, SLINGSHOT_WIDTH, SLINGSHOT_HEIGHT);
         displayScore(batch);
         batch.end();

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AngryWirds-2020.iml" filepath="$PROJECT_DIR$/AngryWirds-2020.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/AngryWirds-2020.android.iml" filepath="$PROJECT_DIR$/.idea/modules/android/AngryWirds-2020.android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/AngryWirds-2020.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/AngryWirds-2020.core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/AngryWirds-2020.desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/AngryWirds-2020.desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JAV1_schouwey.iml" filepath="$PROJECT_DIR$/.idea/modules/JAV1_schouwey.iml" group="JAV1_schouwey" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android/android.iml" group="JAV1_schouwey/android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core.iml" group="JAV1_schouwey/core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/desktop.iml" group="JAV1_schouwey/desktop" />
     </modules>
   </component>
 </project>
